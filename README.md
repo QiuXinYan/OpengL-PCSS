@@ -1,4 +1,4 @@
-# OpengL-PCSS
+# opengL-PCSS
 PCSS implementation - OpengL
 ![PCSS](https://user-images.githubusercontent.com/50079348/151932544-6069906a-630e-4792-a566-f50e7ab5dbac.png)
 ### Environment
