@@ -288,8 +288,6 @@ void ImguiDraw()
 {
     ImGui::Begin("window");
     ImGui::SliderFloat3("light pos", _lightPos, -10.0, 10.0f);
-    ImGui::InputInt("BLOCKER_SEARCH_NUM_SAMPLES", &BLOCKER_SEARCH_NUM_SAMPLES);
-    ImGui::InputInt("PCF_NUM_SAMPLES", &PCF_NUM_SAMPLES);
     ImGui::SliderFloat("NEAR_PLANE", &NEAR_PLANE, 0.0f, 0.1f);
     ImGui::SliderFloat("LIGHT_WORLD_SIZE", &LIGHT_WORLD_SIZE, 0.0f, 1.0f);
     ImGui::SliderFloat("LIGHT_FRUSTUM_WIDTH", &LIGHT_FRUSTUM_WIDTH, 0.0f, 5.75f);
